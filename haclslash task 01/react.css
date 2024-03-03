@@ -1,0 +1,82 @@
+
+h4{
+    font-size: 170%;
+    transition: 1s;
+    cursor:pointer
+}
+h4:hover{
+    transform: translateY(-10px);
+    transform: scaleX(1.05);
+    opacity: 0.8;
+}
+.s1{
+    display: flex;
+    width: 95%;
+}.initiald{
+    background-color: white;
+    color: black;
+}
+.toggled-color{
+    background-color: black;
+    color: white;
+}
+
+
+div.main{
+    width: 78rem;
+    margin: auto;
+}
+div.page{
+    width: 85%;
+    margin-left: 6rem;
+    padding-bottom: 4rem;
+}
+h2{
+    
+    font-size: 300%;
+    font-family: Robota slab ,serif;
+    margin-right: 3rem ;
+    padding-top: .4rem;
+    cursor: pointer;
+}
+div.service-detail{
+    font-size: 100%;
+    padding-right: 40px;
+}
+img{
+    transition: 4s; 
+    cursor: pointer;
+    
+}
+img:hover{
+    transform: rotateY(180deg);
+}
+h2{
+    
+    display: inline-block;
+}
+h2:hover{
+    border-bottom: solid grey 1px;
+    border-left: solid grey 0.5px;
+    border-right: solid grey 0.5px;
+    transform: scale(1.05,1.05);
+}
+button{
+    border: solid white 2px;
+    background-color: black;
+    color: white;
+    padding-top: 10px;
+    padding-bottom: 10px ;
+    max-width: max-content;
+    font-size: large;
+    cursor: pointer;
+    padding:20px;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size:xx-large;
+    cursor:pointer;
+}
+.p:hover{
+    color:darkgray;
+}
